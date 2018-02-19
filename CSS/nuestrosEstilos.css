@@ -1,7 +1,7 @@
 .shadow{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
-  /*  background-color: 	rgb(249,242,242);*/
+    background-color: 	rgb(249,242,242);
 }
 
 .shadowe{
@@ -11,7 +11,19 @@
     color: white;
 }
 
+.shadowe:hover{
+      background-color: black;
+      color: rgb(249,242,242);
+}
+
 body#preguntas{
   background-image: url(../IMAGENES/fondo.png);
 }
 h1{color: white;}
+
+.material-icons.md-18 { font-size: 9px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+*{font-family: 'Raleway', sans-serif;}
