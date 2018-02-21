@@ -10,10 +10,15 @@
     background-color:	#a7a395;
     color: white;
 }
-
+/*
 .shadowe:hover{
       background-color: black;
       color: rgb(249,242,242);
+}
+*/
+
+.custom-control-input:hover{
+      background-color: black;
 }
 
 body#preguntas{
@@ -27,3 +32,8 @@ h1{color: white;}
 .material-icons.md-48 { font-size: 48px; }
 
 *{font-family: 'Raleway', sans-serif;}
+
+.enMedio{
+  float: none;
+ margin: 0 auto;
+}
