@@ -55,6 +55,8 @@ div#Descripcion{
   color: black;
 }
 h4{margin-top: 10px;}
+#atras{z-index: -1;}
+#adelante{z-index: 3;}
 
 
 
