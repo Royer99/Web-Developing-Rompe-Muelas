@@ -1,3 +1,4 @@
+
 .shadow{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
@@ -46,18 +47,33 @@ h1{color: white;}
 body{ background-color:white;}
 h1#intro{ font-family: 'Sacramento', cursive; font-size: 80px; color: white;}
 h1#preguntas{ font-family: 'Dancing Script', cursive; font-size: 60px; color: black;}
-.contenedor#intro{background-image: url(../IMAGENES/flor4.jpg);}
+.contenedor#intro{
+  background-image: url(../IMAGENES/flor4.jpg);
+
+}
 .contenedor#preguntas{background-color: #781112; }
-#abajo{ background-image: url(../IMAGENES/bordado2.png);} /*rojo*/
+#abajo{ background-image: url(../IMAGENES/bordado2.png);}
 img#paisaje{margin: 10px; }
 div#Descripcion{
   margin: 10px;
   color: black;
 }
 h4{margin-top: 10px;}
-#atras{z-index: -1;}
-#adelante{z-index: 3;}
 
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:  'Sacramento', cursive;
+    font-size: 200%;
+}
+.quote {
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
 
 
