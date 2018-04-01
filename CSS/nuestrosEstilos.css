@@ -6,10 +6,9 @@
 }
 
 .shadowe{
+  background-color: 	rgba(250, 167, 14, 0.748);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 10px;
-    background-color: DarkSlateGray;/*#a7a395;*/
-    color: white;
+    padding: 20px;
 }
 /*
 .shadowe:hover{
@@ -26,7 +25,7 @@
 }
 
 body#preguntas{
-   background-image: url(../IMAGENES/fondo.png);
+   background-image: url(../IMAGENES/fondoOpacity.png);
    background-size: 100%;
    background-repeat: repeat;
 }

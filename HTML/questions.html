@@ -15,187 +15,216 @@
     <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Marck+Script|Nanum+Brush+Script|Sacramento" rel="stylesheet">
   </head>
   <body id="preguntas">
-    <div class="contenedor" id="preguntas">
-      <br><br>
-      <div class="text-center">
-        <h1 id="preguntas" class="tema">Personajes de México</h1>
-      </div>
-      <br>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-          <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="intro.html">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="questions.html">Quiz</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Acerca de nosotros</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+<!--Navbar-->
+<div class="contenedor text-center" id="intro">
+    <br><br>
+    <div class="text-center">
+      <h1 id="intro" class="tema">México Cool</h1>
     </div>
+    <br><br><br>
+    <nav  class="navbar navbar-expand-lg navbar-light bg-light text-center">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  text-center" id="navbarText">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="intro.html">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="questions.html">Quiz</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="Rompecabezas.html">Minijuegos</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="personajes.html">Nuestros mexicanos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Acerca de nosotros</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <br>
     <div class="container">
       <!--PREGUNTAS--> <br><br><br><br>
-      <div class="container" id="cslider">
-      <div class="container bgPreguntas row" id="cslider">
-        <div class="col-md-1 col-sm-1 rounded-top">
-            <br>
-            <br>
-            <br>
-            <i class="material-icons md-36">keyboard_arrow_left</i>
+      <div class="row pregunta1">
+        <div class="shadowe rounded col-md-10 offset-md-1">
+         <h4 class="text-center"> 1. ¿Si pudieras ganas uno de los siguientes premios cual escogerias?</h4>
+         <div class="row">
+           <div class="col-md-12 text-center"> 
+              <div class="form-check form-check-inline ">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p1o1" value="p1o1">
+                  <label class="form-check-label" for="p1o1">Óscar</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p1o2" value="p1o2">
+                  <label class="form-check-label" for="p1o2">Nóbel</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p1o3" value="p1o3">
+                    <label class="form-check-label" for="p1o3">Medalla Olímpica</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p1o4" value="p1o4">
+                    <label class="form-check-label" for="p1o4">Grammy</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p1o5" value="p1o5">
+                      <label class="form-check-label" for="p1o5">Presidencia</label>
+                    </div>
+           </div>
+         </div>
         </div>
-        <!--Pregunta-->
-        <div class="col-md-10" id="slide">
-            <div><!--preginta 1 -->
-              <div class="row text-center">
-                <div class="col-sm-12 shadow rounded-top">
-                  <h5>¿Que te gusta hacer en tu tiempo libre?</h5>
-                </div>
-              </div>
-
-              <!--Opciones-->
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="row shadowe">
-                    <div class="col-md-8 col-sm-10" id="opciones">
-
-                      <div class="custom-control custom-radio">
-                        <input type="radio"  checked="checked" id="customRadio1" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio1">Opción 1</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio2">Opción 2</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio3">Opción 3</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio4">Opción 4</label>
-                      </div>
-                    </div>
+      </div> <br><br>
+      <div class="row pregunta2">
+          <div class="shadowe rounded col-md-10 offset-md-1">
+           <h4 class="text-center">2. Por lo general tienes una actitud positiva y estas motivado</h4>
+           <div class="row">
+             <div class="col-md-12 text-center"> 
+                <div class="form-check form-check-inline ">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p2o1" value="p2o1">
+                    <label class="form-check-label" for="p2o1">Completamente de acuerdo</label>
                   </div>
-                </div>
-              </div>
-              <!--Puntitos-->
-              <div class="row text-center">
-                <div class="col-sm-12 shadow rounded-bottom">
-                  <i class="material-icons md-18" id="opc1">fiber_manual_record</i>
-                  <i class="material-icons md-18" id="opc2">fiber_manual_record</i>
-                  <i class="material-icons md-18" id="opc3">fiber_manual_record</i>
-                  <i class="material-icons md-18" id="opc4">fiber_manual_record</i>
-                  <i class="material-icons md-18" id="opc5">fiber_manual_record</i>
-                </div>
-              </div>
-            </div>
-            
-            <div><!--preginta 2 -->
-              <div class="row text-center">
-                <div class="col-sm-12 shadow rounded-top">
-                  <h5>¿Que te gusta comer?</h5>
-                </div>
-              </div>
-
-              <!--Opciones-->
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="row shadowe">
-                    <div class="col-md-8 col-sm-10" id="opciones">
-
-                      <div class="custom-control custom-radio">
-                        <input type="radio"  checked="checked" id="customRadio1" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio1">Opción 1</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio2">Opción 2</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio3">Opción 3</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio4">Opción 4</label>
-                      </div>
-                    </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p2o2" value="p2o2">
+                    <label class="form-check-label" for="p2o2">De acuerdo</label>
                   </div>
-                </div>
-              </div>
-              <!--Puntitos-->
-              <div class="row text-center">
-                <div class="col-sm-12 shadow rounded-bottom">
-                  <i class="material-icons md-18" id="opc1">fiber_manual_record</i>
-                  <i class="material-icons md-18" id="opc2">fiber_manual_record</i>
-                  <i class="material-icons md-18" id="opc3">fiber_manual_record</i>
-                  <i class="material-icons md-18" id="opc4">fiber_manual_record</i>
-                  <i class="material-icons md-18" id="opc5">fiber_manual_record</i>
-                </div>
-              </div>
-            </div>
-            
-            <div><!--preginta 3 -->
-              <div class="row text-center">
-                <div class="col-sm-12 shadow rounded-top">
-                  <h5>¿Que estudias?</h5>
-                </div>
-              </div>
-
-              <!--Opciones-->
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="row shadowe">
-                    <div class="col-md-8 col-sm-10" id="opciones">
-
-                      <div class="custom-control custom-radio">
-                        <input type="radio"  checked="checked" id="customRadio1" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio1">Opción 1</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio2">Opción 2</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio3">Opción 3</label>
-                      </div>
-                      <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio4">Opción 4</label>
-                      </div>
+                  <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p2o3" value="p2o3">
+                      <label class="form-check-label" for="p2o3"> No se</label>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <!--Puntitos-->
-              <div class="row text-center">
-                <div class="col-sm-12 shadow rounded-bottom">
-                  <i class="material-icons md-18" id="opc1">fiber_manual_record</i>
-                  <i class="material-icons md-18" id="opc2">fiber_manual_record</i>
-                  <i class="material-icons md-18" id="opc3">fiber_manual_record</i>
-                  <i class="material-icons md-18" id="opc4">fiber_manual_record</i>
-                  <i class="material-icons md-18" id="opc5">fiber_manual_record</i>
-                </div>
-              </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p2o4" value="p2o4">
+                      <label class="form-check-label" for="p2o4">En desacuerdo</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p2o5" value="p2o5">
+                        <label class="form-check-label" for="p2o5">Completamente en desacuerdo</label>
+                      </div>
+             </div>
+           </div>
+          </div>
+        </div> 
+        <br><br>
+        <div class="row pregunta3">
+            <div class="shadowe rounded col-md-10 offset-md-1">
+             <h4 class="text-center">3. ¿Con qué color te identificas más?</h4>
+             <div class="row">
+               <div class="col-md-12 text-center"> 
+                  <div class="form-check form-check-inline ">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p3o1" value="p3o1">
+                      <label class="form-check-label" for="p3o1"> Amarillo</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p3o2" value="p3o2">
+                      <label class="form-check-label" for="p3o2">Naranja</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p3o3" value="p3o3">
+                        <label class="form-check-label" for="p3o3"> Rojo</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p3o4" value="p3o4">
+                        <label class="form-check-label" for="p3o4">Verde</label>
+                      </div>
+               </div>
+             </div>
             </div>
-        </div>
-        <div class="col-md-1 col-sm-1 rounded-top">
-            <br>
-            <br>
-            <br>
-            <i class="material-icons md-36">keyboard_arrow_right</i>
+          </div> <br><br>
+          <div class="row pregunta4">
+              <div class="shadowe rounded col-md-10 offset-md-1">
+               <h4 class="text-center">4. ¿Cual de estas películas es tu favorita?</h4>
+               <div class="row">
+                 <div class="col-md-12 text-center"> 
+                    <div class="form-check form-check-inline ">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p4o1" value="p4o1">
+                        <label class="form-check-label" for="p4o1">  Código Enigma</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p4o2" value="p4o2">
+                        <label class="form-check-label" for="p4o2">Greatest Showman</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p4o3" value="p4o3">
+                          <label class="form-check-label" for="p4o3"> Whiplash</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p4o4" value="p4o4">
+                          <label class="form-check-label" for="p4o4">I am Bolt</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p4o5" value="p4o5">
+                            <label class="form-check-label" for="p4o5">La lista de shindler</label>
+                          </div>
+                 </div>
+               </div>
+              </div>
+            </div> <br><br>
+            <div class="row pregunta5">
+                <div class="shadowe rounded col-md-10 offset-md-1">
+                 <h4 class="text-center">5. Te regalan un boleto de avion abierto. ¿A dónde viajas?</h4>
+                 <div class="row">
+                   <div class="col-md-12 text-center"> 
+                      <div class="form-check form-check-inline ">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p5o1" value="p5o1">
+                          <label class="form-check-label" for="p5o1"> A donde quiera que llegue. Prefiero que sea sorpresa</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p5o2" value="p5o2">
+                          <label class="form-check-label" for="p5o2">Rabat (Muarruecos) </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p5o3" value="p5o3">
+                            <label class="form-check-label" for="p5o3"> Frankfurt (Alemania)</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p5o4" value="p5o4">
+                            <label class="form-check-label" for="p5o4">Mueva Orleans</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p5o5" value="p5o5">
+                              <label class="form-check-label" for="p5o5">California</label>
+                            </div>
+                   </div>
+                 </div>
+                </div>
+              </div> <br><br>
+              <div class="row pregunta6">
+                  <div class="shadowe rounded col-md-10 offset-md-1">
+                   <h4 class="text-center">6. ¿Qué te gusta hacer en tu tiempo libre?</h4>
+                   <div class="row">
+                     <div class="col-md-12 text-center"> 
+                        <div class="form-check form-check-inline ">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p6o1" value="p6o1">
+                            <label class="form-check-label" for="p6o1">Hacer ejercicio, me gusta estar en forma.</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p6o2" value="p6o2">
+                            <label class="form-check-label" for="p6o2">Pintar </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p6o3" value="p6o3">
+                              <label class="form-check-label" for="p6o3">Leer</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="p6o4" value="p6o4">
+                              <label class="form-check-label" for="p6o4">Cantar </label>
+                            </div>
+                     </div>
+                   </div>
+                  </div>
+                </div> <br><br>
+          
+      <div class="row">
+        <div class="col-md-12 offset-md-5">
+            <button type="button" class="btn btn-warning align-center"> <strong>Enviar</strong></button>
+            <br><br>
         </div>
       </div>
-     </div>
+
     </div>
       
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
