@@ -8,7 +8,7 @@
 .shadowe{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
-    background-color:	black;/*#a7a395;*/
+    background-color: DarkSlateGray;/*#a7a395;*/
     color: white;
 }
 /*
@@ -26,7 +26,9 @@
 }
 
 body#preguntas{
-  background-image: url(../IMAGENES/fondo.png);
+   background-image: url(../IMAGENES/fondo.png);
+   background-size: 100%;
+   background-repeat: repeat;
 }
 h1{color: white;}
 
@@ -51,7 +53,7 @@ h1#preguntas{ font-family: 'Dancing Script', cursive; font-size: 60px; color: bl
   background-image: url(../IMAGENES/flor4.jpg);
 
 }
-.contenedor#preguntas{background-color: #781112; }
+.contenedor#preguntas{background-color: BurlyWood  ; }
 #abajo{ background-image: url(../IMAGENES/bordado2.png);}
 img#paisaje{margin: 10px; }
 div#Descripcion{
@@ -124,3 +126,23 @@ h4{margin-top: 10px;}
   background-image: linear-gradient(#5B7BD5, #4864B1);
 }
 /* TERMINA ESTILO DE BOTON DE FB */
+.bgPreguntas
+{
+    background: crimson;
+    padding: 0 0 0 0;
+    /*background-image: url("/IMAGENES/bandera-de-mexico-min-e1494421645569.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;*/
+}
+#cslider
+{
+    margin: auto;
+    position: relative;
+}
+#slider{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
