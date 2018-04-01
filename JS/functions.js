@@ -8,8 +8,8 @@ var tamHeight = [134,134,134,214,164,174,134,172,134];//prediseñado el tamaño 
 for(var i=0;i<piezas.length;i++){
 	piezas[i].setAttribute("width", tamWidh[i]);
 	piezas[i].setAttribute("height",tamHeight[i]);
-	piezas[i].setAttribute("x", Math.floor((Math.random() * 10) + 1)); //para que las piezas esten esparcidas
-	piezas[i].setAttribute("y", Math.floor((Math.random() * 409) + 1));//las piezas esten esparcidas
+	piezas[i].setAttribute("y", Math.floor((Math.random() * 10) + 1)); //para que las piezas esten esparcidas
+	piezas[i].setAttribute("x", Math.floor((Math.random() * 409)+1));//las piezas esten esparcidas
 	//para mover piezas, primero se agrega onmousedown y ejecutara la funcion
 	piezas[i].setAttribute("onmousedown","seleccionarElemento(evt)");
 }
@@ -70,8 +70,8 @@ function reordenar(evt){
 }
 
 //iman, cuando una pieza se acerque a una posicion, esta se adhiera automaticamente
-var origX = [194,304,414,131,289,414,190,285,414];   //posiciones donde deben ir las piezas
-var origY = [100,100,100,191,218,195,365,326,365];
+var origX = [194,304,414,131,289,414,190,285,414];    //posiciones donde deben ir las piezas
+var origY = [200,200,200,291,318,295,465,426,465];
 
 function iman(){
 	for(var i=0;i<piezas.length;i++){
