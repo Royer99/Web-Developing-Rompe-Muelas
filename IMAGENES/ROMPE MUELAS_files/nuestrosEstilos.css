@@ -59,6 +59,14 @@ div#Descripcion{
 }
 h4{margin-top: 10px;}
 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:  'Sacramento', cursive;
+    font-size: 200%;
+}
 .quote {
     position: relative;
     text-align: center;
@@ -122,20 +130,11 @@ h4{margin-top: 10px;}
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   #fotosIndividuales{
-    visibility: hidden;
-    width: 10px;
+    visibility: visible;
   }
   #carouselNosotros{
     visibility: visible;
   }
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family:  'Sacramento', cursive;
-    font-size: 150%;
-}
 }
 
 /* Tablet Styles */
@@ -143,14 +142,6 @@ h4{margin-top: 10px;}
   #carouselNosotros{
     visibility: hidden;
   }
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family:  'Sacramento', cursive;
-    font-size: 250%;
-}
 }
 
 
@@ -159,13 +150,4 @@ h4{margin-top: 10px;}
   #carouselNosotros{
     visibility: hidden;
   }
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family:  'Sacramento', cursive;
-    font-size: 250%;
 }
-}
-
