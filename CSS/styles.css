@@ -1,0 +1,15 @@
+#entorno {
+	display: block;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#fondo {
+
+	opacity: 0.3;
+}
+body 
+{ 
+     background-image:url('mexico.jpg'); 
+
+}

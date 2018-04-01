@@ -8,7 +8,7 @@
 .shadowe{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
-    background-color: DarkSlateGray;/*#a7a395;*/
+    background-color:	black;/*#a7a395;*/
     color: white;
 }
 /*
@@ -26,9 +26,7 @@
 }
 
 body#preguntas{
-   background-image: url(../IMAGENES/fondo.png);
-   background-size: 100%;
-   background-repeat: repeat;
+  background-image: url(../IMAGENES/fondo.png);
 }
 
 .material-icons.md-18 { font-size: 9px; }
@@ -52,7 +50,7 @@ h1#preguntas{ font-family: 'Dancing Script', cursive; font-size: 60px; color: bl
   background-image: url(../IMAGENES/flor4.jpg);
 
 }
-.contenedor#preguntas{background-color: BurlyWood  ; }
+.contenedor#preguntas{background-color: #781112; }
 #abajo{ background-image: url(../IMAGENES/bordado2.png);}
 img#paisaje{margin: 10px; }
 div#Descripcion{
@@ -60,7 +58,6 @@ div#Descripcion{
   color: black;
 }
 h4{margin-top: 10px;}
-
 
 .centered {
     position: absolute;
@@ -75,7 +72,6 @@ h4{margin-top: 10px;}
     text-align: center;
     color: white;
 }
-
 
 
 /* INICIA ESTILO DE BOTON DE FB */
@@ -126,27 +122,6 @@ h4{margin-top: 10px;}
 }
 /* TERMINA ESTILO DE BOTON DE FB */
 
-.bgPreguntas
-{
-    background: crimson;
-    padding: 0 0 0 0;
-    /*background-image: url("/IMAGENES/bandera-de-mexico-min-e1494421645569.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;*/
-}
-#cslider
-{
-    margin: auto;
-    position: relative;
-}
-#slider{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-}
-
 /**********    RESULTS.HTML    ************/
 .nameResult{ color: black ;  }
 
@@ -155,20 +130,11 @@ h4{margin-top: 10px;}
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   #fotosIndividuales{
-    visibility: hidden;
-    width: 10px;
+    visibility: visible;
   }
   #carouselNosotros{
     visibility: visible;
   }
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family:  'Sacramento', cursive;
-    font-size: 150%;
-}
 }
 
 /* Tablet Styles */
@@ -176,14 +142,6 @@ h4{margin-top: 10px;}
   #carouselNosotros{
     visibility: hidden;
   }
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family:  'Sacramento', cursive;
-    font-size: 250%;
-}
 }
 
 
@@ -192,13 +150,4 @@ h4{margin-top: 10px;}
   #carouselNosotros{
     visibility: hidden;
   }
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family:  'Sacramento', cursive;
-    font-size: 250%;
 }
-}
-
