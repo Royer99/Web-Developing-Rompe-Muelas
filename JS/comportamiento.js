@@ -29,8 +29,8 @@ try {
             + '<div class="carousel-caption d-none d-md-block"><h5>Guillermo González Camarena</h5><p>Científico, investigador e ingeniero. Creador de la televisión a color</p></div>';
             document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/manuel1.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>Manuel Sandoval Vallarta</h5><p>Físico. Aportaciones a la física de los rayos cósmicos</p></div>';
-            document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/#.jpg" alt="Second slide">'
-            + '<div class="carousel-caption d-none d-md-block"><h5>...</h5><p>...</p></div>'; //FALTA LA DE ROYER
+            document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/mario1.jpg" alt="Second slide">'
+            + '<div class="carousel-caption d-none d-md-block"><h5>Mario Molina</h5><p> Ingeniero químico mexicano destacado por ser uno de los descubridores de las causas del agujero de ozono antártico.</p></div>'; //FALTA LA DE ROYER
             document.getElementById('3').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/rodolfo1.png" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>Rodolfo Neri Vela</h5><p> Doctor en ingeniería mexicana. Primer astronauta mexicano en ir al espacio en su primera misión.</p></div>';
         break;
@@ -39,9 +39,9 @@ try {
             + '<div class="carousel-caption d-none d-md-block"><h5>Guillermo González Camarena</h5><p>Científico, investigador e ingeniero. Creador de la televisión a color</p></div>';
             document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/manuel1.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>Manuel Sandoval Vallarta</h5><p>Físico. Aportaciones a la física de los rayos cósmicos</p></div>';
-            document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/#.jpg" alt="Second slide">'
-            + '<div class="carousel-caption d-none d-md-block"><h5>...</h5><p>...</p></div>';//FALTA LA DE ROYER
-            document.getElementById('3').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/rodolfo1.png" alt="Second slide">'
+            document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/mario1.jpg" alt="Second slide">'
+            + '<div class="carousel-caption d-none d-md-block"><h5>Mario Molina</h5><p> Ingeniero químico mexicano destacado por ser uno de los descubridores de las causas del agujero de ozono antártico.</p></div>'; //FALTA LA DE ROYER
+             document.getElementById('3').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/rodolfo1.png" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>Rodolfo Neri Vela</h5><p> Doctor en ingeniería mexicana. Primer astronauta mexicano en ir al espacio en su primera misión.</p></div>';
         break;
         case 3: //MUSICA
@@ -49,8 +49,8 @@ try {
             + '<div class="carousel-caption d-none d-md-block"><h5>Guillermo González Camarena</h5><p>Científico, investigador e ingeniero. Creador de la televisión a color</p></div>';
             document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/manuel1.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>Manuel Sandoval Vallarta</h5><p>Físico. Aportaciones a la física de los rayos cósmicos</p></div>';
-            document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/#.jpg" alt="Second slide">'
-            + '<div class="carousel-caption d-none d-md-block"><h5>...</h5><p>...</p></div>';//FALTA LA DE ROYER
+            document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/mario1.jpg" alt="Second slide">'
+            + '<div class="carousel-caption d-none d-md-block"><h5>Mario Molina</h5><p> Ingeniero químico mexicano destacado por ser uno de los descubridores de las causas del agujero de ozono antártico.</p></div>'; //FALTA LA DE ROYER
             document.getElementById('3').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/rodolfo1.png" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>Rodolfo Neri Vela</h5><p> Doctor en ingeniería mexicana. Primer astronauta mexicano en ir al espacio en su primera misión.</p></div>';
         break;
@@ -59,9 +59,9 @@ try {
             + '<div class="carousel-caption d-none d-md-block"><h5>Guillermo González Camarena</h5><p>Científico, investigador e ingeniero. Creador de la televisión a color</p></div>';
             document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/manuel1.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>Manuel Sandoval Vallarta</h5><p>Físico. Aportaciones a la física de los rayos cósmicos</p></div>';
-            document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/#.jpg" alt="Second slide">'
-            + '<div class="carousel-caption d-none d-md-block"><h5>...</h5><p>...</p></div>';//FALTA LA DE ROYER
-            document.getElementById('3').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/rodolfo1.png" alt="Second slide">'
+            document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/mario1.jpg" alt="Second slide">'
+            + '<div class="carousel-caption d-none d-md-block"><h5>Mario Molina</h5><p> Ingeniero químico mexicano destacado por ser uno de los descubridores de las causas del agujero de ozono antártico.</p></div>'; //FALTA LA DE ROYER
+             document.getElementById('3').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/rodolfo1.png" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>Rodolfo Neri Vela</h5><p> Doctor en ingeniería mexicana. Primer astronauta mexicano en ir al espacio en su primera misión.</p></div>';
          break;
         case 5: //POLITICA
@@ -69,9 +69,9 @@ try {
             + '<div class="carousel-caption d-none d-md-block"><h5>Guillermo González Camarena</h5><p>Científico, investigador e ingeniero. Creador de la televisión a color</p></div>';
             document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/manuel1.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>Manuel Sandoval Vallarta</h5><p>Físico. Aportaciones a la física de los rayos cósmicos</p></div>';
-            document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/#.jpg" alt="Second slide">'
-            + '<div class="carousel-caption d-none d-md-block"><h5>...</h5><p>...</p></div>';//FALTA LA DE ROYER
-            document.getElementById('3').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/rodolfo1.png" alt="Second slide">'
+            document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/mario1.jpg" alt="Second slide">'
+            + '<div class="carousel-caption d-none d-md-block"><h5>Mario Molina</h5><p> Ingeniero químico mexicano destacado por ser uno de los descubridores de las causas del agujero de ozono antártico.</p></div>'; //FALTA LA DE ROYER
+             document.getElementById('3').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/rodolfo1.png" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>Rodolfo Neri Vela</h5><p> Doctor en ingeniería mexicana. Primer astronauta mexicano en ir al espacio en su primera misión.</p></div>';
         break;
         case 6: //EMPRENDIMIENTO
@@ -79,9 +79,9 @@ try {
             + '<div class="carousel-caption d-none d-md-block"><h5>Guillermo González Camarena</h5><p>Científico, investigador e ingeniero. Creador de la televisión a color</p></div>';
             document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/manuel1.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>Manuel Sandoval Vallarta</h5><p>Físico. Aportaciones a la física de los rayos cósmicos</p></div>';
-            document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/#.jpg" alt="Second slide">'
-            + '<div class="carousel-caption d-none d-md-block"><h5>...</h5><p>...</p></div>';//FALTA LA DE ROYER
-            document.getElementById('3').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/rodolfo1.png" alt="Second slide">'
+            document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/mario1.jpg" alt="Second slide">'
+            + '<div class="carousel-caption d-none d-md-block"><h5>Mario Molina</h5><p> Ingeniero químico mexicano destacado por ser uno de los descubridores de las causas del agujero de ozono antártico.</p></div>'; //FALTA LA DE ROYER
+             document.getElementById('3').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/rodolfo1.png" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>Rodolfo Neri Vela</h5><p> Doctor en ingeniería mexicana. Primer astronauta mexicano en ir al espacio en su primera misión.</p></div>';
         break;
         default:
