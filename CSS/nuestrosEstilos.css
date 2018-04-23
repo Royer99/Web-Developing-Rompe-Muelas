@@ -201,3 +201,6 @@ h4{margin-top: 10px;}
 }
 }
 
+.card-img-top:hover {
+cursor:pointer;
+}
