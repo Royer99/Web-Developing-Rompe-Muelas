@@ -2,8 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta property="og:url"           content="https://www.your-domain.com/your-page.html" />
+      <meta property="og:type"          content="website" />
+      <meta property="og:title"         content="Your Website Title" />
+      <meta property="og:description"   content="Your description" />
+      <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+
     <title></title>
-    <link rel="stylesheet" href="../CSS/nuestrosEstilos.css">
     <!--    Bootstrap 4    -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <!--    Nuestros Estilos CSS     -->
@@ -14,6 +19,15 @@
     <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Marck+Script|Nanum+Brush+Script|Sacramento|Raleway" rel="stylesheet">
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.12&appId=1801440776759214&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
 <!--Navbar-->
 <div class="contenedor text-center" id="intro">
   <br><br>
@@ -47,8 +61,12 @@
   </nav>
 </div>
 
+<!--Boton compartir-->
+<div class="fb-share-button" data-href="http://tamayo.qro.itesm.mx/a1209400/Rompemuelas/HTML/intro.html" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftamayo.qro.itesm.mx%2Fa1209400%2FRompemuelas%2FHTML%2Fintro.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+
 <!--INFORMACION-->
 <div class="container" id="abajo">
+
   <!--imagen y parrafo uno-->
   <div class="container" id="Descripcion">
     <div class="row">
@@ -58,15 +76,15 @@
       <div class="col-sm-12 col-md-6 text-center" >
         <h4><strong>México Lindo y Querido</strong> </h4>
         <p class="text-justify">México, el quinto país más grande del continente americano,
-           es un territorio lleno de colores, sabores, sonidos, tradiciones e historia única en el 
-           mundo. Con 111 Pueblos Mágicos que contribuyen a revalorar a 
-          un conjunto de poblaciones del país y ofrecen alternativas frescas y diferentes para 
+           es un territorio lleno de colores, sabores, sonidos, tradiciones e historia única en el
+           mundo. Con 111 Pueblos Mágicos que contribuyen a revalorar a
+          un conjunto de poblaciones del país y ofrecen alternativas frescas y diferentes para
           los visitantes nacionales y extranjeros.
           <br><br>
           Su belleza y reconocimiento va más allá de monumentos, comidas y vistas.
-          Pues, su hospitalidad le ha ganado reconocimiento como país 
-          anfitrión por excelencia, siendo la calidez de su gente, su alegría, y profesionalismo 
-          lo que hacen de México un país como ningún otro. Navega todo el sitio y déjate 
+          Pues, su hospitalidad le ha ganado reconocimiento como país
+          anfitrión por excelencia, siendo la calidez de su gente, su alegría, y profesionalismo
+          lo que hacen de México un país como ningún otro. Navega todo el sitio y déjate
           enamorar de México a travez de su gente.</p>
       </div>
     </div>
@@ -80,15 +98,15 @@
       </div>
       <div class="col-xs-12 col-md-6 " >
         <h4 class="text-center"><strong>Historia</strong>  </h4>
-        <p class="text-justify">La historia de México se remonta miles de años en la antigüedad, 
-            pues en su territorio se han descubierto algunos de los restos humanos más antiguos de 
-            América. Además, fue cuna de civilizaciones precolombinas como los Olmecas, Mayas y 
-            Aztecas, entre cuyas aportaciones se encuentran avanzados sistemas matemáticos y 
-            calendáricos, la construcción de grandes metrópolis, además de la domesticación del 
+        <p class="text-justify">La historia de México se remonta miles de años en la antigüedad,
+            pues en su territorio se han descubierto algunos de los restos humanos más antiguos de
+            América. Además, fue cuna de civilizaciones precolombinas como los Olmecas, Mayas y
+            Aztecas, entre cuyas aportaciones se encuentran avanzados sistemas matemáticos y
+            calendáricos, la construcción de grandes metrópolis, además de la domesticación del
             maíz y el cacao.
             <br><br>
-            En el siglo XVI, México fue conquistado por expedicionarios españoles bajo el mando 
-            de Hernán Cortés, dando inicio al Virreinato de la Nueva España y a un mestizaje étnico 
+            En el siglo XVI, México fue conquistado por expedicionarios españoles bajo el mando
+            de Hernán Cortés, dando inicio al Virreinato de la Nueva España y a un mestizaje étnico
             y cultural entre indígenas, europeos y africanos. </p>
       </div>
     </div>
@@ -120,7 +138,7 @@
           El día de muertos se conoce en cada hogar mexicano, y aun asi, cada region le pone a la tradicion su color.
           Algunos agregan otras flores, otros comidas tipicas de la region, y demás.
           <br><br>
-          Los bailes tipicos no son excepción, bailes tradicionales existen a lo largo y ancho del país, cada uno 
+          Los bailes tipicos no son excepción, bailes tradicionales existen a lo largo y ancho del país, cada uno
           distinto al anterior, y reflejando la belleza de cada estado. Tenemos el baile tapatío en Jalisco, la Bamba
            hasta Veracruz o La Danza de los Viejitos en Oaxaca.
         </p>
@@ -138,7 +156,7 @@
       <div class="col-sm-12 col-md-6 " >
           <h4 class="text-center"><strong>''Vamos al grano''</strong>  </h4>
           <p class="text-justify">Ahora, sabemos que México es un país lleno de potencial y hemos
-            descrito algunas de las cosas que lo hacen un país distinto y especial. Sin embargo, 
+            descrito algunas de las cosas que lo hacen un país distinto y especial. Sin embargo,
             este sitio busca ir más alla de reconocer paisajes, tradiciones y monumentos. Es momento
             de poner bajo el reflector a aquellas personas que comparten su talento y sueños en este país
             haciendolo crecer e impulsandolo en áreas da arte, ciencias, música o de cualquier índole.
@@ -160,9 +178,6 @@
 
 <!--<button class="loginBtn loginBtnfacebook">Inicia sesión con Facebook</button>-->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="../JS/comportamiento.js"></script>
+  
   </body>
 </html>
