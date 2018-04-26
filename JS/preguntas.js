@@ -119,7 +119,11 @@ try{
 
     }
     
-    
+function changeVisibility(_divisionId,_visibility)
+{
+ division=document.getElementById(_divisionId);
+ division.style.visibility=_visibility;
+}
         
 }catch(e){
     console.log("catch");

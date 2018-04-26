@@ -49,41 +49,18 @@
     </nav>
   </div>
   <br>
-    <div class="container">
+    <div id="button">
+      <h5 align="center">Bienvenido al Quiz Magico, el cual determinara un personaje mexicano</h5>
+      <p align="center"><input  type="button" name="Show" value="Comenzar Quiz" id="Show" onclick=" changeVisibility ('Quiz','visible')"/></p>
+  </div>
+
+    <div class="container" id="Quiz">
       <!--PREGUNTAS--> <br><br><br><br>
+      
+
       <div class="row pregunta1">
           <div class="shadowe rounded col-md-10 offset-md-1">
-           <h4 class="text-center"> 1. ¿Si pudieras ganas uno de los siguientes premios cual escogerias?</h4>
-           <div class="row">
-             <form class="col-md-12 text-center">
-                <div class="form-check form-check-inline ">
-                    <input checked id="p1o1" type="radio" name="coffe" class="movil" value="emprendimiento" >
-                    <label for="p1o1" class="form-check-label" for="">Completamente de acuerdo</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                      <input id="p1o2"type="radio" name="coffe" class="movil" value="politica" >
-                      <label for="p1o2" class="form-check-label" for="">De acuerdo</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                       <!-- <input id="p1o3" type="radio" name="coffe" class="movil" value="musica" >
-                       <label for="p1o3"class="form-check-label" for=""> - </label>-->
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input id="p1o4" type="radio" name="coffe" class="movil" value="deportes" >
-                        <label for="p1o4" class="form-check-label" for="">En desacuerdo</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input id="p1o5"id="p1o3"type="radio" name="coffe" class="movil" value="arte" >
-                        <label for="p1o5" class="form-check-label" for="p1o5">Completamente en desacuerdo</label>
-                      </div>
-               </form>
-           </div>
-          </div>
-      </div> <br><br>
-
-      <div class="row pregunta2">
-          <div class="shadowe rounded col-md-10 offset-md-1">
-           <h4 class="text-center">2. ¿Si pudieras ganas uno de los siguientes premios cual escogerias?</h4>
+           <h4 class="text-center">1. ¿Si pudieras ganas uno de los siguientes premios cual escogerias?</h4>
            <div class="row">
              <form class="col-md-12 text-center">
                 <div class="form-check form-check-inline ">
@@ -111,9 +88,9 @@
           </div>
       </div><br><br>
 
-        <div class="row pregunta3">
+        <div class="row pregunta2">
             <div class="shadowe rounded col-md-10 offset-md-1">
-             <h4 class="text-center">3. ¿Con qué color te identificas más?</h4>
+             <h4 class="text-center">2. ¿Con qué color te identificas más?</h4>
              <div class="row">
                <form class="col-md-12 text-center">
                   <div class="form-check form-check-inline ">
@@ -142,9 +119,9 @@
         </div> <br><br>
 
 
-        <div class="row pregunta4">
+        <div class="row pregunta3">
               <div class="shadowe rounded col-md-10 offset-md-1">
-               <h4 class="text-center">4. ¿Cual de estas películas es tu favorita?</h4>
+               <h4 class="text-center">3. ¿Cual de estas películas es tu favorita?</h4>
                <div class="row">
                  <form class="col-md-12 text-center">
                     <div class="form-check form-check-inline ">
@@ -173,9 +150,9 @@
         </div> <br><br>
 
 
-        <div class="row pregunta5">
+        <div class="row pregunta4">
                 <div class="shadowe rounded col-md-10 offset-md-1">
-                 <h4 class="text-center">5. Te regalan un boleto de avion abierto. ¿A dónde viajas?</h4>
+                 <h4 class="text-center">4. Te regalan un boleto de avion abierto. ¿A dónde viajas?</h4>
                  <div class="row">
                    <form class="col-md-12 text-center">
                       <div class="form-check form-check-inline ">
@@ -204,9 +181,9 @@
         </div> <br><br>
 
 
-        <div class="row pregunta6">
+        <div class="row pregunta5">
                   <div class="shadowe rounded col-md-10 offset-md-1">
-                   <h4 class="text-center">6. ¿Qué te gusta hacer en tu tiempo libre?</h4>
+                   <h4 class="text-center">5. ¿Qué te gusta hacer en tu tiempo libre?</h4>
                    <div class="row">
                      <form class="col-md-12 text-center">
                         <div class="form-check form-check-inline ">
@@ -234,9 +211,9 @@
                   </div>
         </div> <br><br>
 
-        <div class="row pregunta7">
+        <div class="row pregunta6">
             <div class="shadowe rounded col-md-10 offset-md-1">
-             <h4 class="text-center">7. ¿Qué actividad disfrutas más?</h4>
+             <h4 class="text-center">6. ¿Qué actividad disfrutas más?</h4>
              <div class="row">
                <form class="col-md-12 text-center">
                   <div class="form-check form-check-inline ">
@@ -264,9 +241,9 @@
             </div>
         </div> <br><br>
 
-        <div class="row pregunta8">
+        <div class="row pregunta7">
             <div class="shadowe rounded col-md-10 offset-md-1">
-             <h4 class="text-center">8. ¿Cómo consideras tu personalidad?</h4>
+             <h4 class="text-center">7. ¿Cómo consideras tu personalidad?</h4>
              <div class="row">
                <form class="col-md-12 text-center">
                   <div class="form-check form-check-inline ">
@@ -295,9 +272,9 @@
         </div> <br><br>
 
 
-        <div class="row pregunta9">
+        <div class="row pregunta8">
             <div class="shadowe rounded col-md-10 offset-md-1">
-             <h4 class="text-center">9. ¿Qué es lo primero que buscas al conocer en una nueva ciudad?</h4>
+             <h4 class="text-center">8. ¿Qué es lo primero que buscas al conocer en una nueva ciudad?</h4>
              <div class="row">
                <form class="col-md-12 text-center">
                   <div class="form-check form-check-inline ">
@@ -325,9 +302,9 @@
             </div>
         </div> <br><br>
 
-        <div class="row pregunta10">
+        <div class="row pregunta9">
             <div class="shadowe rounded col-md-10 offset-md-1">
-             <h4 class="text-center">10. Si pudieras ir a cenar con un personaje famoso, ¿Con quién irías?</h4>
+             <h4 class="text-center">9. Si pudieras ir a cenar con un personaje famoso, ¿Con quién irías?</h4>
              <div class="row">
                <form class="col-md-12 text-center">
                   <div class="form-check form-check-inline ">
@@ -356,9 +333,9 @@
         </div> <br><br>
 
 
-        <div class="row pregunta11">
+        <div class="row pregunta10">
             <div class="shadowe rounded col-md-10 offset-md-1">
-             <h4 class="text-center">11. Si pudieras aprender a hacer algo neuvo ¿Qué eligirías?</h4>
+             <h4 class="text-center">10. Si pudieras aprender a hacer algo neuvo ¿Qué eligirías?</h4>
              <div class="row">
                <form class="col-md-12 text-center">
                   <div class="form-check form-check-inline ">
