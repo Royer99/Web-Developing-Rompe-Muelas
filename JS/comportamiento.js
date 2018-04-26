@@ -93,72 +93,8 @@ try {
 
 }
 
-var key=5;
 
-switch (key) {
-    case 1: //CIENCIA
-        console.log("PASO 1");
-        document.getElementById('nameResult').innerHTML = 'Guillermo González Camarena';
-        document.getElementById('title').innerHTML = '¡Sorpresa! <br> Eres Guillermo González Camarena';
-        document.getElementById('contentParagraph').innerHTML = ' Descripcion del personaje Guillermo...';
-        document.getElementById('car1').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra1.jpg" alt="First slide">';
-        document.getElementById('car2').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra2.jpg" alt="First slide">';
-        document.getElementById('car3').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra3.jpg" alt="First slide">';
-        document.getElementById('car4').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra4.jpg" alt="First slide">';
-    break;
-    case 2:
-    document.getElementById('nameResult').innerHTML = 'Guillermo González Camarena';
-    document.getElementById('title').innerHTML = '¡Sorpresa! <br> Eres Guillermo González Camarena';
-    document.getElementById('contentParagraph').innerHTML = ' Descripcion del personaje Guillermo...';
-    document.getElementById('car1').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra1.jpg" alt="First slide">';
-    document.getElementById('car2').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra2.jpg" alt="First slide">';
-    document.getElementById('car3').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra3.jpg" alt="First slide">';
-    document.getElementById('car4').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra4.jpg" alt="First slide">';
+    }
+} catch (error) {
 
-    break;
-    case 3:
-    document.getElementById('nameResult').innerHTML = 'Guillermo González Camarena';
-    document.getElementById('title').innerHTML = '¡Sorpresa! <br> Eres Guillermo González Camarena';
-    document.getElementById('contentParagraph').innerHTML = ' Descripcion del personaje Guillermo...';
-    document.getElementById('car1').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra1.jpg" alt="First slide">';
-    document.getElementById('car2').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra2.jpg" alt="First slide">';
-    document.getElementById('car3').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra3.jpg" alt="First slide">';
-    document.getElementById('car4').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra4.jpg" alt="First slide">';
-
-    break;
-    case 4:
-    document.getElementById('nameResult').innerHTML = 'Guillermo González Camarena';
-    document.getElementById('title').innerHTML = '¡Sorpresa! <br> Eres Guillermo González Camarena';
-    document.getElementById('contentParagraph').innerHTML = ' Descripcion del personaje Guillermo...';
-    document.getElementById('car1').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra1.jpg" alt="First slide">';
-    document.getElementById('car2').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra2.jpg" alt="First slide">';
-    document.getElementById('car3').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra3.jpg" alt="First slide">';
-    document.getElementById('car4').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra4.jpg" alt="First slide">';
-
-    break;
-    case 5:
-    document.getElementById('nameResult').innerHTML = 'Guillermo González Camarena';
-    document.getElementById('title').innerHTML = '! <br> Eres Guillermo González Camarena'+
-    '<'+'div class="fb-share-button"'+' data-href="'+'http://tamayo.qro.itesm.mx/a1209400/Rompemuelas/HTML/intro.html'+'" data-layout="button"'+' data-size="large" '+'data-mobile-iframe="false"><a target="_blank" '+'href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftamayo.qro.itesm.mx%2Fa1209400%2FRompemuelas%2FHTML%2Fintro.html&amp;src=sdkpreparse"'+' class="fb-xfbml-parse-ignore">Compartir</a></div>';
-    document.getElementById('contentParagraph').innerHTML = ' Descripcion del personaje Guillermo...';
-    document.getElementById('car1').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra1.jpg" alt="First slide">';
-    document.getElementById('car2').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra2.jpg" alt="First slide">';
-    document.getElementById('car3').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra3.jpg" alt="First slide">';
-    document.getElementById('car4').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra4.jpg" alt="First slide">';
-
-    break;
-    case 6:
-    document.getElementById('nameResult').innerHTML = 'Guillermo González Camarena';
-    document.getElementById('title').innerHTML = '¡Sorpresa! <br> Eres Guillermo González Camarena';
-    document.getElementById('contentParagraph').innerHTML = ' Descripcion del personaje Guillermo...';
-    document.getElementById('car1').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra1.jpg" alt="First slide">';
-    document.getElementById('car2').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra2.jpg" alt="First slide">';
-    document.getElementById('car3').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra3.jpg" alt="First slide">';
-    document.getElementById('car4').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra4.jpg" alt="First slide">';
-
-    break;
-
-    default:
-    alert("Ocurrio un error");
-        break;
 }
