@@ -45,8 +45,8 @@ try {
             + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p>Descripcion</p></div>';
         break;
         case 3: //MUSICA
-            document.getElementById('0').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/.jpg" alt="Second slide">'
-            + '<div class="carousel-caption d-none d-md-block"><h5>Guillermo González Camarena</h5><p>Científico, investigador e ingeniero. Creador de la televisión a color</p></div>';
+            document.getElementById('0').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/silvestre1.jpg" alt="Second slide">'
+            + '<div class="carousel-caption d-none d-md-block"><h5>Silvestre Revueltas</h5><p>Descripcion</p></div>';
             document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p>Descripcion</p></div>';
             document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
@@ -55,8 +55,8 @@ try {
             + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p>Descripcion</p></div>';
         break;
         case 4: //ARTE
-            document.getElementById('0').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/.jpg" alt="Second slide">'
-            + '<div class="carousel-caption d-none d-md-block"><h5>Guillermo González Camarena</h5><p>Científico, investigador e ingeniero. Creador de la televisión a color</p></div>';
+            document.getElementById('0').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/rafaellozano1.jpg" alt="Second slide">'
+            + '<div class="carousel-caption d-none d-md-block"><h5>Rafael Lozano</h5><p>Descripcion</p></div>';
             document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p>Descripcion</p></div>';
             document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
@@ -65,8 +65,8 @@ try {
             + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p>Descripcion</p></div>';
          break;
         case 5: //POLITICA
-            document.getElementById('0').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/.jpg" alt="Second slide">'
-            + '<div class="carousel-caption d-none d-md-block"><h5>Guillermo González Camarena</h5><p>Científico, investigador e ingeniero. Creador de la televisión a color</p></div>';
+            document.getElementById('0').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/carstens1.jpg" alt="Second slide">'
+            + '<div class="carousel-caption d-none d-md-block"><h5>Agustin Carstens</h5><p>Descripcion</p></div>';
             document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p>Descripcion</p></div>';
             document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
@@ -75,8 +75,8 @@ try {
             + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p>Descripcion</p></div>';
         break;
         case 6: //EMPRENDIMIENTO
-            document.getElementById('0').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/.jpg" alt="Second slide">'
-            + '<div class="carousel-caption d-none d-md-block"><h5>Guillermo González Camarena</h5><p>Científico, investigador e ingeniero. Creador de la televisión a color</p></div>';
+            document.getElementById('0').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/lorenzo1.jpg" alt="Second slide">'
+            + '<div class="carousel-caption d-none d-md-block"><h5>Lorenzo Zambrano</h5><p>Descripcion</p></div>';
             document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p>Descripcion</p></div>';
             document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
