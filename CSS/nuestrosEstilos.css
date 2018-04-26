@@ -200,4 +200,26 @@ h4{margin-top: 10px;}
     font-size: 250%;
 }
 }
+.imagesSize
+{
+  width: 100%;
+  padding: 3px 3px 3px 3px;
+}
+.imagesSize2
+{
+  width: 100%;
+  padding: 10px 100px 10px 100px;
+}
+#preguntasTrivia{
+   background-image: url(../IMAGENES/fondoTrivia_5.jpeg);
+   background-size: 800px;
+   background-repeat: repeat;
+   opacity: 1;
+}
+.shadowTrivia{
+  background-color: rgba(250, 167, 14, 0.848);	/*rgb(56, 190, 60, 0.848);*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
 
