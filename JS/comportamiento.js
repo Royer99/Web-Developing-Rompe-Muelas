@@ -36,19 +36,19 @@ try {
         break;
         case 2: //DEPORTES
             document.getElementById('0').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/checo1.jpg" alt="Second slide">'
-            + '<div class="carousel-caption d-none d-md-block"><h5>Sergio Perez</h5><p>Corredo de  la formula 1 </p></div>';
-            document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
-            + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p>Descripcion</p></div>';
-            document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
-            + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p> Descripcion</p></div>'; 
+            + '<div class="carousel-caption d-none d-md-block"><h5>Sergio Perez</h5><p>Corredor de  la formula 1 </p></div>';
+            document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/Ricardo1.jpg" alt="Second slide">'
+            + '<div class="carousel-caption d-none d-md-block"><h5>Ricardo Vargas</h5><p>Nadador Profesional</p></div>';
+            document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/javier1.jpg" alt="Second slide">'
+            + '<div class="carousel-caption d-none d-md-block"><h5>Javier Hernandez</h5><p> Descripcion</p></div>'; 
              document.getElementById('3').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/.jpg" alt="Second slide">'
-            + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p>Descripcion</p></div>';
+            + '<div class="carousel-caption d-none d-md-block"><h5>Paola Espinosa</h5><p>Clavadisgta profesional</p></div>';
         break;
         case 3: //MUSICA
             document.getElementById('0').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/silvestre1.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>Silvestre Revueltas</h5><p>Descripcion</p></div>';
-            document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
-            + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p>Descripcion</p></div>';
+            document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/alondra1.jpg" alt="Second slide">'
+            + '<div class="carousel-caption d-none d-md-block"><h5>Alondra de la parra</h5><p>Directora de orquesta</p></div>';
             document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p> Descripcion</p></div>'; 
             document.getElementById('3').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/.jpg alt="Second slide">'
@@ -57,8 +57,8 @@ try {
         case 4: //ARTE
             document.getElementById('0').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/rafaellozano1.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>Rafael Lozano</h5><p>Descripcion</p></div>';
-            document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
-            + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p>Descripcion</p></div>';
+            document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/guillermo1.jpg" alt="Second slide">'
+            + '<div class="carousel-caption d-none d-md-block"><h5>Guillermo del Toro</h5><p>Director de cine</p></div>';
             document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p> Descripcion</p></div>'; 
              document.getElementById('3').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/.jpg" alt="Second slide">'
@@ -67,8 +67,8 @@ try {
         case 5: //POLITICA
             document.getElementById('0').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/carstens1.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>Agustin Carstens</h5><p>Descripcion</p></div>';
-            document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
-            + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p>Descripcion</p></div>';
+            document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/pedro1.jpg" alt="Second slide">'
+            + '<div class="carousel-caption d-none d-md-block"><h5>Pedro Kumamoto</h5><p>Politico Mexicano independiente</p></div>';
             document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p> Descripcion</p></div>'; 
              document.getElementById('3').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/.jpg" alt="Second slide">'
@@ -77,7 +77,7 @@ try {
         case 6: //EMPRENDIMIENTO
             document.getElementById('0').innerHTML = '<img class="d-block" width="100%" src="../IMAGENES/personajes/lorenzo1.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>Lorenzo Zambrano</h5><p>Descripcion</p></div>';
-            document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
+            document.getElementById('1').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/andrea1.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p>Descripcion</p></div>';
             document.getElementById('2').innerHTML = '<img class="d-block"  width="100%"src="../IMAGENES/personajes/.jpg" alt="Second slide">'
             + '<div class="carousel-caption d-none d-md-block"><h5>nombre</h5><p> Descripcion</p></div>'; 
