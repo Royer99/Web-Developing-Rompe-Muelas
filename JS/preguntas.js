@@ -1,3 +1,8 @@
+document.getElementById("myBtn").addEventListener("click", function(){
+    document.getElementById("Quiz").style.visibility='visible';
+    });
+
+
 var contadorArte = 0;
 var contadorCiencia = 0;
 var contadorDep = 0;
@@ -105,7 +110,7 @@ try{
         document.getElementById('car4').innerHTML = ' <img class="d-block w-100 h-200" src="../IMAGENES/personajes/alondra4.jpg" alt="First slide">';
     
         break;
-        case 'emprendimiento':
+        case "emprendimiento":
         document.getElementById('nameResult').innerHTML = 'Emprendimiento González Camarena';
         document.getElementById('title').innerHTML = '¡Sorpresa! <br> Eres Guillermo González Camarena';
         document.getElementById('contentParagraph').innerHTML = ' Descripcion del personaje Guillermo...';
@@ -119,13 +124,8 @@ try{
 
     }
     
-function changeVisibility(_divisionId,_visibility)
-{
- division=document.getElementById(_divisionId);
- division.style.visibility=_visibility;
-}
+    
         
 }catch(e){
     console.log("catch");
 }
->>>>>>> 23a632aad347867cb57e93c99509492c0ec8a5bb
