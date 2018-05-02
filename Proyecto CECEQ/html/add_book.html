@@ -1,0 +1,288 @@
+<br />
+<div class="container shadow">
+    <div class="row">
+        <div class="col-sm-12">
+                <div class="text-center"> <br>
+                    <div class="display-4">Agregar Libro</div>
+                </div>
+        </div>
+    </div>
+    <br/>
+
+    <form method="POST" action="add_book.php" role="form">
+        <div class='row'>
+
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="book_title">Título:</label>
+                    <div class="col-md-12">
+                        <input class="form-control" id="book_title" name="book[title]" required size="30" type="text" placeholder="Los Miserables" />
+                    </div>
+                </div>
+            </div>
+
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="book_isbn">ISBN:</label>
+                    <div class="col-md-12">
+                        <input class="form-control cvalidate cisbn" id="book_isbn" name="book[isbn]" required size="30" type="text" placeholder="0-7645-26413" />
+                    </div>
+                </div>
+            </div>
+
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="book_shelf">Estante:</label>
+                    <div class="col-md-12">
+                        <input class="form-control" id="book_shelf" name="book[shelf]" required size="30" type="text" placeholder="VII-A"/>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class='row'>
+
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="book_vol">Vol:</label>
+                    <div class="col-md-12">
+                        <input class="form-control" id="book_vol" name="book[vol]" required size="30" type="text" placeholder="1" />
+                    </div>
+                </div>
+            </div>
+
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="book_edicion">No. de impresión:</label>
+                    <div class="col-md-12">
+                        <input class="form-control" id="book_edicion" name="book[edicion]" required size="30" type="text" placeholder="4" />
+                    </div>
+                </div>
+            </div>
+
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="book_yeare">Año de impresión:</label>
+                    <div class="col-md-12">
+                        <input class="form-control cvalidate cyear" id="book_yeare" name="book[yeare]" required size="30" type="text" placeholder="1996"/>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class='row'>
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="book_editorial">Editorial:</label>
+                    <div class="col-md-12">
+                        <input class="form-control" id="book_editorial" name="book[editorial]" required size="30" type="text" placeholder="Editorial"/>
+                    </div>
+                </div>
+            </div>
+            <div class='col-sm-4 mx-auto'>
+                <div class='form-groupr'>
+                    <label for="book_year">Año:</label>
+                    <div class="col-md-12">
+                        <input class="form-control cvalidate cyear" id="book_year" name="book[year]" required size="30" type="text" placeholder="1998"/>
+                    </div>
+                </div>
+            </div>
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="book_colection">Colección:</label>
+                    <div class="col-md-12">
+                        <input class="form-control" id="book_colection" name="book[colection]" required size="30" type="text" placeholder="0-7645-26413" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="book_clave">Clave de ingreso:</label>
+                    <div class="col-md-12">
+                        <input class="form-control cvalidate " required id="book_clave" name="book[clave]" size="30" type="text" placeholder="DG 242" />
+                    </div>
+                </div>
+            </div>
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="book_clave">No. de Adquisición:</label>
+                    <div class="col-md-12">
+                        <input class="form-control cvalidate " required id="book_adquisition" name="book[adquisition]" size="30" type="text" placeholder="K00205" />
+                    </div>
+                </div>
+            </div>
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="book_clave">No. classs:</label>
+                    <div class="col-md-12">
+                        <input class="form-control cvalidate " id="book_adquisition" name="book[numClas]" size="30" type="text" placeholder=".123" />
+                    </div>
+                </div>
+            </div>
+      </div>
+      <div class='row'>
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="book_author">Nombre autor:</label>
+                    <div class="col-md-12">
+                        <input class="form-control cvalidate cname" id="book_author" name="book[author]" required size="30" type="text" placeholder="Octavio"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="book_apaterno">Apellido:</label>
+                    <div class="col-md-12">
+                        <input class="form-control cvalidate cname" id="book_apaterno" name="book[apaterno]" size="30" type="text" placeholder="Paz"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="collapse" id="espacioAutor2">
+        <div class="row">
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="book_author2">Nombre autor 2:</label>
+                    <div class="col-md-12">
+                        <input class="form-control cvalidate cname" id="book_author2" name="book[author2]" size="30" type="text" placeholder="Octavio"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="book_apaterno2">Apellido autor 2:</label>
+                    <div class="col-md-12">
+                        <input class="form-control cvalidate cname" id="book_apaterno2" name="book[apaterno2]" size="30" type="text" placeholder="Paz"/>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="book_author3">Nombre autor 3:</label>
+                    <div class="col-md-12">
+                        <input class="form-control cvalidate cname" id="book_author3" name="book[author3]" size="30" type="text" placeholder="Octavio"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class='col-sm-4'>
+                <div class='form-group'>
+                    <label for="book_apaterno3">Apellido autor 3:</label>
+                    <div class="col-md-12">
+                        <input class="form-control cvalidate cname" id="book_apaterno3" name="book[apaterno3]" size="30" type="text" placeholder="Paz"/>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+        <a class="btn btn-secondary " href="#espacioAutor2" role="button" data-toggle="collapse">Agregar autores</a>
+        <br>
+        <br>
+        <div class='row'>
+            <div class='col-sm-6'>
+                    <div class='form-group'>
+                        <label for="clasificacion">Clasificación:</label>
+                        <div class="col-md-12">
+                            <select class="form-control cvalidate " name="clasificacion" id="clasificacion" required>
+                                <option value="" disabled selected>-- Clasificación --</option>
+                                <option value="000">000 Generalidades</option>
+                                <option value="100">100 Filosofía y psicología</option>
+                                <option value="200">200 Religión</option>
+                                <option value="300">300 Ciencias sociales</option>
+                                <option value="400">400 Lenguas</option>
+                                <option value="500">500 Ciencias naturales y matemáticas</option>
+                                <option value="600">600 Tecnología</option>
+                                <option value="700">700 Las artes. Bellas artes y artes decorativas</option>
+                                <option value="800">800 Literatura y retórica</option>
+                                <option value="900">900 Geografía e historia</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            <div class='col-sm-6'>
+                    <div class='form-group'>
+                        <label for="sclasificacion">Subclasificación:</label>
+                        <div class="col-md-12">
+                            <select class="form-control cvalidate " name="sclasificacion" id="sclasificacion" required>
+                                <option value="" disabled selected>-- seleccionar clasificación--</option>
+        
+                            </select>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="materias">Materias:</label>
+                    <div class="col-md-12">
+                        <input class="form-control cvalidate" id="book_materias" name="book[bookmaterias]" size="30" type="text" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <div class="col-md-12">
+                    <a class="btn btn-secondary py-0" href="catalog.php"><i class="material-icons align-middle">arrow_back</i></a>
+    <!--                    <button type="submit" class="btn btn-outline-secondary mx-auto">Iniciar Sesión</button>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 text-right">
+                <div class="form-group">
+                    <div class="col-md-12">
+
+                        <input type="submit" class="btn btn-secondary cinsert" value="Agregar libro">
+
+                        <!--<button type="submit" class="btn btn-secondary mx-auto">Agregar Libro</button>-->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </form>
+    <form method="post" id="csv_Form" action="controller/importcsv_controller.php" enctype="multipart/form-data">
+        <div class="row">
+                <div class="col-sm-4 offset-4">
+                    <div class="container shadow">
+                        <div class="row">
+                                <div class="col-sm-12">
+                                    <h5>Importar libros desde CSV</h5>
+                                </div>
+                            </div>
+                        <div class="input-group">
+                            <div class="custom-file">
+                                <input type="file" name="csvFile"class="custom-file-input" id="inputGroupFile02" value="Seleccionar Archivo">
+                                <label class="custom-file-label" for="inputGroupFile02">Escoger archivo</label>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 text-right offset-4">
+                                <div class="input-group-append">
+                                        <input class="btn btn-success" type="submit" name="uploadCsv" value="Upload"/>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </form>
+
+</div>

@@ -1,0 +1,93 @@
+
+    <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Eliminar</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>¿Seguro que desea eliminar la cuenta <?php echo ' '.$user['user'];; ?>?</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="deleteAccount.php?user=<?php  echo $user['user']; ?>" class="btn btn-success" class="btn btn-   primary">Aceptar</a>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  <br /><br />
+<div class="container mdiv shadow">
+    <div class="mx-auto text-center"> <!-- mx-auto da un padding y border automatico-->
+        <div class="display-3">Cuentas</div> <!--display son headdings mas grandes-->
+    </div>
+    <br>
+    <br>
+    <form id="form_account" method="post" action="editAccount.php">
+        <div class="form-row center-block mx-auto">
+            <div class="col-sm-12 col-md-4">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" name="name" required="true" class="form-control cvalidate cname required" value="<?php echo $user['name']; ?>">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="form-group">
+                    <label for="name">Usuario:</label>
+                    <input type="text" name="user" required="true" class="form-control required" readonly value="<?php echo $user['user']; ?>">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="form-group">
+                    <label for="name">Rol:</label>
+                    <select name="rol" class="form-control">
+                        <option value="" disabled selected>-- Roles --</option>
+                        <?php while($row = mysqli_fetch_array($rols, MYSQLI_BOTH)) { ?>
+                        <option value='<?php echo $row["idRol"]; ?>'><?php echo $row["nombre"]; ?></option>
+                        <?php } ?>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-sm-12 col-md-4">
+                <div class="form-group">
+                    <label for="name">Contraseña:</label>
+                    <input type="password" name="password" required class="form-control required cvalidate cpassword">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="form-group">
+                    <label for="name">Validar Contraseña:</label>
+                    <input type="password" name="passwordValidate" required class="form-control required cvalidate cpassword">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+           
+        <div class="row">
+            <div class="col-4 offset-md-3 col-md-4">
+                <a data-toggle="modal" data-target="#deleteModal" href="deleteAccount.php?user=<?php echo $user['user']; ?>"    class="btn btn-secondary">Eliminar Cuenta</a>
+            </div>
+            <div class="col-2 offset-2 col-md-2 offset-sm-0">
+                <input type="submit" name="submit" class="btn btn-secondary btn-block cinsert" value="Registrar">
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-4 col-md-2 col-xs-2">
+                <a href="cuentas.php" class="btn btn-secondary py-0"><i class="material-icons alagin-middle">arrow_back</i></a>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    $('#myModal').modal({
+        keyboard: true
+    });
+</script>
+
+<script src="js/validatePasswords.js"></script>
