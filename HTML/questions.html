@@ -16,6 +16,87 @@
     <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Marck+Script|Nanum+Brush+Script|Sacramento|Raleway" rel="stylesheet">
   </head>
   <body id="preguntas">
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="TituloModal">México Cool</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-center" data-spy="scroll" data-offset="0">
+                        <div class="container" id="abajo"> <br>
+                          <!--Titulo del personaje-->
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <div class="text-center">
+                                <h3 id="nameResult" class="nameResult">NOMBRE DEL PERSONAJE</h3>
+                              </div>
+                            </div>
+                          </div>
+                          <br>
+                    
+                    
+                    
+                          <!--Personaje  y descripción-->
+                            <div class="row">
+                              <!-- Carrousel de imagenes -->
+                              <div class="col-sm-6 col-md-6 col-lg-4">
+                                <br><br>
+                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                  <div class="carousel-inner">
+                                    <div class="carousel-item active" id="car1"></div>
+                                    <div class="carousel-item" id="car2"></div>
+                                    <div class="carousel-item" id="car3"> </div>
+                                    <div class="carousel-item" id="car4"> </div>
+                                  </div>
+                                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                </div>
+                              </div>
+                    
+                              <!-- Descripción de personaje -->
+                              <div class="col-sm-6 col-md-6 col-lg-8">
+                                <div class="shadow">
+                                  <div class="text-justify">
+                                    <div class="parrafo" id="parrafo"> <!--Aun no tiene ningun estilo .parrafo ni #parrafo-->
+                                      <strong id="title">¿Qué es Lorem Ipsum?</strong>
+                                      <br><br>
+                                      <p id="contentParagraph">Es un hecho establecido hace demasiado
+                                        distraerá con el contenido del texto de un sitio mientras que
+                                        mira su diseño. El punto de usar Lorem Ipsum es que tiene una
+                                        distribución más o menos normal de las letras, al contrario de
+                                        usar textos como por ejemplo "Contenido aquí, contenido aquí".
+                                        Estos textos hacen parecerlo un español que se puede leer. Muchos
+                                        paquetes de autoedición y editores de páginas web usan el Lorem
+                                        Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem
+                                        Ipsum" va a dar por resultado muchos sitios web que usan este texto
+                                        si se encuentran en estado de desarrollo. Muchas versiones han
+                                        evolucionado a través de los años, algunas veces por accidente,
+                                        otras veces a propósito (por ejemplo insertándole humor y cosas
+                                        por el estilo).</p>
+                                    </div>
+                                  </div>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+      
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+            </div>
+          </div>
 <!--Navbar-->
 <div class="contenedor text-center" id="intro">
     <br><br>
@@ -53,13 +134,13 @@
       <div class="col-md-12">
           <h5 align="center">Bienvenido al Quiz Mágico, el cual determinara que personaje mexicano eres</h5>
       </div>
-      <div class="col-md-12">
+      <div class="col-md-4 offset-md-5">
           <button class="btn btn-warning align-center" name="myBtn" id="myBtn" align="center"> 
               Comenzar Quiz
           </button>
       </div>
   </div>
-
+  
     <div class="container" id="Quiz" name="Quiz">
       <!--PREGUNTAS--> <br><br><br><br>
       <div class="row pregunta1">
@@ -339,7 +420,7 @@
 
         <div class="row pregunta10">
             <div class="shadowe rounded col-md-10 offset-md-1">
-             <h4 class="text-center">10. Si pudieras aprender a hacer algo neuvo ¿Qué eligirías?</h4>
+             <h4 class="text-center">10. Si pudieras aprender a hacer algo nuevo ¿Qué eligirías?</h4>
              <div class="row">
                <form class="col-md-12 text-center">
                   <div class="form-check form-check-inline ">
@@ -400,8 +481,8 @@
 
       <div class="row">
         <div class="col-md-12 offset-md-5">
-          <button type="button"  class="btn btn-warning align-center">
-              <a  onclick="myFunction()"  href="results.html" style="color: black;">Enviar</a>   
+          <button data-toggle="modal" data-target=".bd-example-modal-lg" type="button" id="Enviar" class="btn btn-warning align-center">
+            Enviar
           </button>
             <br><br>
         </div>
